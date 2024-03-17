@@ -1,0 +1,68 @@
+/* .paper-submission-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .submission-instructions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .instruction {
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+  }
+  
+  .instruction:hover {
+    transform: translateY(-5px);
+  }
+  
+  .instruction i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .instruction p {
+    margin: 0;
+  }
+  
+  .instruction a {
+    color: #007bff;
+    text-decoration: none;
+  } */
+  
+  .paper-submission-container {
+    text-align: left;
+  }
+  
+  .submission-info {
+    margin-top: 20px;
+  }
+  
+  .submission-point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .submission-link {
+    margin-top: 20px;
+  }
+  
+  .submission-link a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+  }
+  

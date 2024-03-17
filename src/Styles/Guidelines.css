@@ -1,0 +1,17 @@
+.guidelines-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .submission-guidelines, .registration-guidelines {
+    width: 45%;
+  }
+  
+  ul {
+    padding-left: 20px; /* Add left padding to the unordered list */
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  

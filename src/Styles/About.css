@@ -1,0 +1,18 @@
+.about-container {
+    display: flex;
+  }
+  
+  .left {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .right {
+    flex: 2;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

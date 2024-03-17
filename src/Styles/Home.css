@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  height: 500px;
+  color: aqua;
+  background-image: url(../assets/raja.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.schedule-table {
+  /* border: 2px solid red;  */
+  position: relative; /* Changed to relative */
+  margin: 20px auto; /* Center horizontally */
+  max-width: 800px;
+  width: 100%;
+}
+
+.schedule-table td,
+.schedule-table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 60%;
+}
+
+.schedule-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  word-spacing: 2px;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.schedule-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.activity {
+  width: 50%;
+  text-align: left;
+}
+
+.date {
+  width: 50%;
+  text-align: right;
+}
