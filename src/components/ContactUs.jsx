@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/ContactUs.css'; // Import your CSS file for styling
+import '../Styles/ContactUs.css'; 
 
 const ContactUs = () => {
   return (
@@ -23,8 +23,6 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="map">
-        {/* Your Google Map component goes here */}
-        {/* Replace the following line with your Google Map component */}
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.479310543375!2d73.02045167497647!3d19.042652532155067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3db5e2c85cd%3A0xef26c52d7d73816e!2sSIES%20Graduate%20School%20of%20Technology!5e0!3m2!1sen!2sus!4v1710655088828!5m2!1sen!2sus" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
       </div>
     </div>

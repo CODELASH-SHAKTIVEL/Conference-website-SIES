@@ -9,8 +9,8 @@
 
 .schedule-table {
   /* border: 2px solid red;  */
-  position: relative; /* Changed to relative */
-  margin: 20px auto; /* Center horizontally */
+  position: relative; 
+  margin: 20px auto; 
   max-width: 800px;
   width: 100%;
 }
