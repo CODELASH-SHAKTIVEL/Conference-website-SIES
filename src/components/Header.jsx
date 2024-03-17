@@ -1,27 +1,30 @@
 import React from 'react';
 import '../Styles/Header.css';
+import logo from '../assets/sies_gst_logo.jpg'
+import Secondlogo from '../assets/International-Conference-on-Deep-Learning-Computing-and-IntelligenceICDCI-2021-1.jpg'
 import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <>
       <div className='marquee-container'>
-        <marquee behavior="scroll" direction="left">This is my college website</marquee>
+        <marquee behavior="scroll" direction="left">NOTICE : Call for paper submission date extended till 15th March 2024</marquee>
       </div>
       <nav className='navbar-container'>
       <div className="left-logo">
-          <img src="/path/to/your/left-logo.png" alt="Left Logo" />
+          <img src={logo} alt="Left Logo" width="170" height="130" />
         </div>
         <ul>
           <li><Link to={'/'}>Home</Link></li>
           <li><Link to={'/about'}>About</Link></li>
           <li><Link to={'/Callforpaper'}>Call for Paper</Link></li>
-          <li><Link to={'/contact-us'}>Contact Us</Link></li>
+          <li><Link to={'/ContactUs'}>Contact Us</Link></li>
         </ul>
         <div className="middle-text">
-          <p>Two sentences here</p>
+          <p>2nd International Conference on
+            Advances in Technology and Management</p>
         </div>
         <div className="right-logo">
-          <img src="/path/to/your/right-logo.png" alt="Right Logo" />
+          <img src={Secondlogo} alt="Right Logo" width="170" height="120"/>
         </div>
       </nav>
     </>

@@ -1,11 +1,12 @@
 import React from 'react';
-import '../Styles/About.css'; // Import your CSS file for styling
+import '../Styles/About.css'; 
+import aboutpic from '../assets/about.jpg'
 
 const About = () => {
   return (
     <div className="about-container">
       <div className="left">
-        <img src="path_to_your_image" alt="About Institute" />
+        <img src={aboutpic} alt="About Institute" width="600" height="800" />
       </div>
       <div className="right">
         <h2>ABOUT THE INSTITUTE</h2>

@@ -16,11 +16,10 @@ const Footer = () => {
         <div className="footer-section links">
           <h2>Quick Links</h2>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">Speakers</a></li>
-            <li><a href="#">Registration</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Sies college link</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Carreer </a></li>
+            <li><a href="#">Enginneering</a></li>
           </ul>
         </div>
         <div className="footer-section social">
